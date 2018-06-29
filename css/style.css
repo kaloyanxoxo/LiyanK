@@ -245,11 +245,11 @@ body{
 
 .youtube_section{
     height: 500px;
-    background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-    background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-    background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-    background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-    background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+    background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
     margin: 250px 0px;
     box-shadow: 5px 0px 18px 2px rgb(255, 255, 255, 0.5);
     display: grid;
@@ -537,11 +537,11 @@ footer{
         color: rgb(200, 238, 255);
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -626,11 +626,11 @@ footer{
         color: rgb(200, 238, 255);
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+        background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+        background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+        background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+        background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -772,11 +772,11 @@ footer{
 
     .youtube_section{
         height: auto;
-        background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
         margin: 250px 0px;
         box-shadow: 5px 0px 18px 2px rgb(255, 255, 255, 0.5);
         display: grid;
@@ -1016,11 +1016,11 @@ footer{
         max-width: 100%;
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -1130,11 +1130,11 @@ footer{
         text-decoration-line: underline;
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -o-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
+        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: -webkit-gradient(linear, to bottom, from(rgba(215, 215, 215, 0.692)) , to(rgba(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
