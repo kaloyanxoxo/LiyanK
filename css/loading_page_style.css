@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding:0;
+    margin: 0;
+    background-color: #000;
+    font-size: 0;
+}
+
+.loader-container{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    transform: translate(-60%,-54%);
+}
+.loader-div{
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    border: 7px solid #162534;
+    border-radius: 50%;
+    border-top: 7px solid #09f;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.image-wrapper{
+    width: 100%;
+}
+.preloader{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-0%, -30%);
+    background: url(../img/logo-resizedpng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+}
+.preloader::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:-5%;
+    left: -1.11%;
+    background: url(../img/logo-resizedpng.png);
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+    animation: animate .25s infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0 0;
+        filter: hue-rotate(0deg);
+    }
+    10% {
+        background-position: 4px 0;
+    }
+    15%{
+        background-position: -4px 0;
+    }
+    20% {
+        background-position: 12px 0;
+    }
+    25%{
+        background-position: 16px 0;
+    }
+    30% {
+        background-position: -14px 0;
+    }
+    35%{
+        background-position: 16px 0;
+    }
+    40% {
+        background-position: 19px 0;
+    }
+    45%{
+        background-position: -17px 0;
+    }
+    50% {
+        background-position: 22px 0;
+    }
+    55%{
+        background-position: 25px 0;
+    }
+    60% {
+        background-position: -27px 0;
+    }
+    65%{
+        background-position: -20px 0;
+    }
+    70% {
+        background-position: 34px 0;
+    }
+    75%{
+        background-position: -35px 0;
+    }
+    80% {
+        background-position: 48px 0;
+    }
+    85%{
+        background-position: 50px 0;
+    }
+    90% {
+        background-position: -52px 0;
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+@keyframes fadeout {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+
+/* ============================================================================================================== */
+/* ==================================================MEDIA=QUERIES=============================================== */
+/* ============================================================================================================== */
+
+@media only screen and (max-width: 1130px){
+    .preloader{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+
+
+
+
+

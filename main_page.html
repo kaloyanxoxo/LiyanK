@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    ß integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700,800" 
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
+     rel="stylesheet">
+
+    <title>Liyan K Productions</title>
+</head>
+<body>
+    <div class="grid-wrapper">
+
+        <nav class="nav">
+            <ul>
+                <li><a class = "about-me" href="#about-me">About me</a></li>
+                <li><a class = "music" href="#music">Music</a></li>
+                <li><a class = "contact_me" href="#contact-form">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!-- <a class="order-now" href="#" id="buy_now">Buy Now!</a> -->
+
+        <div class="header-container">
+            <div class="image-header-wrapper">
+                <img src="./img/logo-resizedpng.png" alt="">
+            </div>
+            <header class = "header-contact">
+                <h3>New beat every week!</h3>
+                <p>Also check out my channels and subscribe for the beats!</p>
+                <p class="second-para">For private beats:   <span><a href="#contact-form" class="contact-me-span">Contact Me</a></span></p>
+            </header>
+        </div>
+
+        <div class="about_me-wrapper slide_in" id="about-me">
+            <div class="about_me">
+                <h1>About Me</h1>
+                <p>Hi Guys!
+                    I am LIYAN K and I am a music/beats producer. 
+                    Making music/beats was always and always will be my passion.
+                    Everything that you will find on my social media platforms is 
+                    produced and composed by me. If you have ANY questions feel free to ask!
+                    Ever Since lately, I am also interested in making vlogs, sharing moments of my everyday life. 
+                    If you want to find out more or want to contact with me from the contact form  or 
+                    through the links in the "Contact Me" section.</p>
+            </div>
+        </div>
+
+        <section class="youtube_section">
+            <div class="player-wrapper" id="music">
+                <h1>LATEST TRACK!</h1>
+                    <div id="player" class="custom-youtube-player"></div>
+            </div>
+            <aside class="youtube_sidebar"> 
+                <p>Watch my LATEST collaboration with <span>LAYOUT</span></p>
+                <iframe  class="collaboration" width="100%" height="150" src="https://youtube.com/embed/6Au-YsW68Vw" frameborder="1" target="_blank"></iframe>
+            </aside>
+        </section>
+
+        <section class="contact_me-section">
+            <div class="contact_me_form">
+                <h1>Contact Me</h1>
+                <form id="contact-form" action="https://formspree.io/liyankproductions@gmail.com" method="POST"> 
+                    <input type="text" name="name" id="name" placeholder="Name:" required><br>
+                    <input type="email" name="email" id="email" placeholder="Email:" required><br>
+                    <textarea name="content" id="content" cols="30" rows="10" placeholder="Ask Question" required></textarea><br>
+                    <input type="submit" name="Submit" value="Send">
+                </form>
+                <p>
+                    <small>
+                        For more safety, after Submition, you'll be redirected to confirm you are not a robot.
+                        Excuse Us!
+                    </small>
+                </p>
+            </div>
+            <hr>
+            <aside class="side-bar">
+                <p>Check out my channels in Youtube, Instagram, Facebook and subscribe for more!</p>
+                <div class="social-medias">
+                    <a href="https://www.facebook.com/liyankproductions/" target="_blank"><i class="fab fa-facebook-square fa-3x facebook_icon"></i></a>
+                    <a href="https://www.instagram.com/liyank.productions/?hl=bg" target="_blank"><i class="fab fa-instagram fa-3x" id="insta"></i></a>
+                    <a href="https://www.youtube.com/channel/UCuZV0jMqLoyLgwDqoot12RA/featured" target="_blank"><i class="fab fa-youtube fa-3x youtube_icon"></i></a>
+                </div>
+            </aside>
+        </section>
+        <footer>
+             &copy;2018 Kaloyan Kostadinov
+        </footer>        
+    </div>
+
+    <script type="text/javascript" src="js/main_page_js.js"></script>
+    <script type="text/javascript" src="js/youtubeplayer.js"></script>
+    <script type="text/javascript" src="js/contact-form.js"></script>
+
+</body>
+</html>
