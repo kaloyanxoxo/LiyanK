@@ -532,6 +532,7 @@ footer{
         color: rgb(200, 238, 255);
     }
     .youtube_section{
+        color: transparent;
         background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
