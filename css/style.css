@@ -520,6 +520,7 @@ footer{
         width: 100%;
         transition: all 0.2;
         z-index: 4;
+        background-color: rgba(85, 113, 142, 0.792);
         /* border-radius: 0% 0% 1.5% 1.5%; */
     }
     
@@ -621,6 +622,7 @@ footer{
         left: 0;
         width: 100%;
         transition: all 0.2;
+        background-color: rgba(85, 113, 142, 0.792);
         z-index: 4;
         /* border-radius: 0% 0% 1.5% 1.5%; */
     }
@@ -726,6 +728,7 @@ footer{
         left: 0;
         width: 100%;
         transition: all 0.2;
+        background-color: rgba(85, 113, 142, 0.792);
         z-index: 4;
         /* border-radius: 0% 0% 1.5% 1.5%; */
     }
@@ -973,6 +976,7 @@ footer{
         width: 100%;
         transition: all 0.2;
         z-index: 4;
+        background-color: rgba(85, 113, 142, 0.792);
         /* border-radius: 0% 0% 1.5% 1.5%; */
     }
     
