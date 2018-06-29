@@ -328,6 +328,7 @@ body{
     width: 100%;
     margin: 4% auto 100px auto;
     background: #edf3f8bc;
+    background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
     position: relative;
     box-sizing: border-box;
     z-index: 2;
@@ -532,7 +533,6 @@ footer{
         color: rgb(200, 238, 255);
     }
     .youtube_section{
-        color: transparent;
         background: linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -webkit-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
