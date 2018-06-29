@@ -535,6 +535,7 @@ footer{
     }
     .youtube_section{
         background: linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
     }
 
 }
@@ -580,6 +581,7 @@ footer{
     }
     .youtube_section{
         background: linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
     }
     
 }
@@ -779,10 +781,7 @@ footer{
     .contact_me-section .side-bar{
         max-height: 400px;
     }
-    .youtube_section{
-        background: linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-    }
-    
+ 
 }
 
 /* ================================================================================================================== */
@@ -901,6 +900,7 @@ footer{
     }
     .youtube_section{
         background: linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
     }
 
 }
@@ -972,6 +972,7 @@ footer{
     }
     .youtube_section{
         background: linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
     }
 }
 
