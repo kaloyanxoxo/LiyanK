@@ -562,7 +562,7 @@ footer{
         background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -o-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -643,7 +643,7 @@ footer{
         background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -o-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -784,7 +784,7 @@ footer{
             background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
             background: -moz-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
             background: -o-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-            background: -webkit-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+            background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
         margin: 250px 0px;
         box-shadow: 5px 0px 18px 2px rgb(255, 255, 255, 0.5);
         display: grid;
@@ -1033,7 +1033,7 @@ footer{
         background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -o-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
@@ -1140,7 +1140,7 @@ footer{
         background: -webkit-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -moz-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
         background: -o-linear-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
-        background: -webkit-gradient(to bottom, rgb(215, 215, 215, 0.692) , rgb(255,255,255, 0.692));
+        background: -webkit-gradient(linear, to bottom, from(rgb(215, 215, 215, 0.692)) , to(rgb(255,255,255, 0.692)));
     }
     .about_me::after{
         grid-area: about_me-wrapper;
