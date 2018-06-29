@@ -531,8 +531,12 @@ footer{
         width: 100%;
         height: 100vh;
         background: url("../img/background_photo.png") center fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
     }
     .header-container{
         display:grid;
@@ -613,8 +617,12 @@ footer{
         width: 100%;
         height: 100vh;
         background: url("../img/background_photo.png") center fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
     }
     .header-container{
         display:grid;
@@ -687,6 +695,20 @@ footer{
 }
 
 @media only screen and (max-width: 767px) {
+    body{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background: url("../img/background_photo.png") center fixed;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+    }
+
     .nav{
         position: fixed;
         top: 0;
@@ -935,8 +957,12 @@ footer{
         width: 100%;
         height: 100vh;
         background: url("../img/background_photo.png") center fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
     }
 
 
@@ -1090,8 +1116,12 @@ footer{
         width: 100%;
         height: 100vh;
         background: url("../img/background_photo.png") center fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
     }
 
     .about-me, .music, .contact_me{
