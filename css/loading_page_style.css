@@ -145,7 +145,6 @@ body{
     .preloader{
         display: flex;
         flex-direction: column;
-
     }
 
 }
