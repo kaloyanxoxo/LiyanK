@@ -619,6 +619,10 @@ footer{
         color: rgb(194, 68, 68);
     }
     .contact_me-section{
+        background: -webkit-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -moz-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -o-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -webkit-gradient(linear, to bottom, from(#edf3f8bc) , to(#edf3f8bc));
         background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
         box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
     }
@@ -731,6 +735,10 @@ footer{
         color: rgb(194, 68, 68);
     }
     .contact_me-section{
+        background: -webkit-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -moz-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -o-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -webkit-gradient(linear, to bottom, from(#edf3f8bc) , to(#edf3f8bc));
         background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
         box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
     }
@@ -973,6 +981,14 @@ footer{
     }
     .social-medias a .youtube_icon{
         color: rgb(194, 68, 68);
+    }
+    .contact_me-section{
+        background: -webkit-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -moz-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -o-linear-gradient(bottom,#edf3f8bc , #edf3f8bc);
+        background: -webkit-gradient(linear, to bottom, from(#edf3f8bc) , to(#edf3f8bc));
+        background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
+        box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
     }
 }
 
