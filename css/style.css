@@ -528,13 +528,13 @@ footer{
         margin: 0;
         width: 100%;
         height: 100vh;
-        background: url("../img/background_photo.png") center fixed;
+        background: url("../img/background_photo.png") fixed;
         background-repeat:no-repeat;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        background-position:center center;
+        -webkit-background-size:contain;
+        -moz-background-size:contain;
+        -o-background-size:contain;
+        background-size:contain;
+        background-position: center center;
     }
     .nav{
         position: fixed;
@@ -596,7 +596,7 @@ footer{
         z-index: -1;
         transform-origin: top left;
         transform: skewY(2deg);
-        box-shadow: 0px 5px 10px -2px rgb(180, 180, 180, 0.805);
+        box-shadow: 0px 5px 10px -2px rgba(180, 180, 180, 0.805);
     }
     .about_me::before{
         grid-area: about_me-wrapper;
@@ -705,7 +705,7 @@ footer{
         z-index: -1;
         transform-origin: top left;
         transform: skewY(2deg);
-        box-shadow: 0px 5px 10px -2px rgb(180, 180, 180, 0.805);
+        box-shadow: 0px 5px 10px -2px rgba(180, 180, 180, 0.805);
     }
     .about_me::before{
         grid-area: about_me-wrapper;
@@ -944,7 +944,7 @@ footer{
         z-index: -1;
         transform-origin: top left;
         transform: skewY(2deg);
-        box-shadow: 0px 5px 10px -2px rgb(180, 180, 180, 0.805);
+        box-shadow: 0px 5px 10px -2px rgba(180, 180, 180, 0.805);
     }
     .about_me::before{
         grid-area: about_me-wrapper;
@@ -1075,7 +1075,7 @@ footer{
         max-width: 100%;
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
@@ -1095,7 +1095,7 @@ footer{
         z-index: -1;
         transform-origin: top left;
         transform: skewY(2deg);
-        box-shadow: 0px 5px 10px -2px rgb(180, 180, 180, 0.805);
+        box-shadow: 0px 5px 10px -2px rgba(180, 180, 180, 0.805);
     }
     .about_me::before{
         grid-area: about_me-wrapper;
@@ -1189,7 +1189,7 @@ footer{
         text-decoration-line: underline;
     }
     .youtube_section{
-        background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
+    background: linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -webkit-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -moz-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
     background: -o-linear-gradient(bottom, rgba(215, 215, 215, 0.692) , rgba(255,255,255, 0.692));
