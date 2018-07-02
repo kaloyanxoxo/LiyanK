@@ -626,6 +626,16 @@ footer{
         background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
         box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
     }
+    .contact_me_form form input[type="submit"] {
+        background-color: rgba(255, 0, 0, 0.394);
+        text-transform: uppercase;
+        font-size: 1.5em;
+        padding: 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: #000; 
+        color: #fff;
+    }
 
 }
 
@@ -741,6 +751,16 @@ footer{
         background: -webkit-gradient(linear, to bottom, from(#edf3f8bc) , to(#edf3f8bc));
         background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
         box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
+    }
+    .contact_me_form form input[type="submit"] {
+        background-color: rgba(255, 0, 0, 0.394);
+        text-transform: uppercase;
+        font-size: 1.5em;
+        padding: 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: #000; 
+        color: #fff;
     }
 }
 
@@ -989,6 +1009,16 @@ footer{
         background: -webkit-gradient(linear, to bottom, from(#edf3f8bc) , to(#edf3f8bc));
         background: linear-gradient(to bottom, #edf3f8bc, #edf3f8bE);
         box-shadow: 5px 0px 18px 2px rgba(255, 255, 255, 0.5);
+    }
+    .contact_me_form form input[type="submit"] {
+        background-color: rgba(255, 0, 0, 0.394);
+        text-transform: uppercase;
+        font-size: 1.5em;
+        padding: 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        border-color: #000; 
+        color: #fff;
     }
 }
 
