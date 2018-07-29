@@ -531,10 +531,9 @@ footer{
         -webkit-background-size:cover !important;
         -moz-background-size:cover !important;
         -o-background-size:cover !important;
-        background-size:cover !important;
         background-size: 100% 100% !important;
         background-position: center center !important;
-        background-attachment: scroll !important;
+        background-attachment: fixed !important;
     }
     .nav{
         position: fixed;
