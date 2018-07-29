@@ -517,7 +517,7 @@ footer{
 
 
 
-@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 480px) {
+@media all and (max-width: 480px) {
     html{
         font-size: 11px;
     } 
@@ -667,7 +667,7 @@ footer{
 
 
 
-@media only screen and (min-width: 481px) and (max-width: 766px){
+@media all and (min-width: 481px) and (max-width: 766px){
     html{
         font-size: 13px;
     } 
