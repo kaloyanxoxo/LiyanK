@@ -528,10 +528,10 @@ footer{
         height: 100%;
         background: url("../img/mobile_liyank1.png") !important;
         background-repeat:no-repeat !important;
-        -webkit-background-size:contain!important;
+        /* -webkit-background-size:contain!important;
         -moz-background-size:contain !important;
         -o-background-size:contain !important;
-        background-size: 100% !important;
+        background-size: 100% !important; */
         background-attachment: scroll !important;
     }
     .nav{
@@ -681,8 +681,7 @@ footer{
         -moz-background-size:contain !important;
         -o-background-size:contain !important;
         background-size:contain !important;
-        background-position: center center !important;
-        background-attachment: fixed !important;
+        background-attachment: scroll !important;
     }
     .nav{
         position: fixed;
