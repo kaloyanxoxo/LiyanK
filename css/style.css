@@ -531,7 +531,9 @@ footer{
         background-origin: content-box !important;
         background-size: contain !important;
         -moz-background-origin: content-box !important;
-        background-attachment: fixed !important;
+        background-attachment: scroll !important;
+        -webkit-background-size: contain;
+
     }
     .nav{
         position: fixed;
