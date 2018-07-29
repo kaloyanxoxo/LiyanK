@@ -253,9 +253,9 @@ body{
 .about_me p{
     grid-area: about_me-wrapper;
     padding: 1% 10% 4% 10%;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: rgba(11, 0, 40, 0.752);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* ABOUT ME SECTION END  */
