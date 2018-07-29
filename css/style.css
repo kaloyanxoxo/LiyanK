@@ -528,9 +528,9 @@ footer{
         height: 100vh !important;
         background: url("../img/mobile_liyank1.png") !important;
         background-repeat:no-repeat !important;
-        /* -webkit-background-size:contain!important;
+        -webkit-background-size:contain!important;
         -moz-background-size:contain !important;
-        -o-background-size:contain !important; */
+        -o-background-size:contain !important;
         background-size: 100% !important;
         background-attachment: scroll !important;
     }
