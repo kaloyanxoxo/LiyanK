@@ -529,6 +529,7 @@ footer{
         background: url("../img/mobile_liyank1.png") !important;
         background-repeat:no-repeat !important;
         background-attachment: scroll !important;
+        background-size: cover !important;
 
     }
     .nav{
