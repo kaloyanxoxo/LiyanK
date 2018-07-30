@@ -526,11 +526,6 @@ footer{
         margin: 0;
         width: 100% !important;
         height: 100vh !important;
-        
-        /* background-attachment: fixed !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        background-size: cover !important; */
     }
     body::before{
         content: '' !important;
@@ -541,8 +536,22 @@ footer{
         height: 100% !important;
         width: 100% !important;
     }
-    .youtube.section{
-        z-index: 999;
+    .youtube_section{
+        z-index: 0;
+        position: relative;
+    }
+    .youtube_section .player-wrapper{
+        z-index: 1;
+    }
+    .youtube_section .youtube_sidebar{
+        z-index: 1;
+    }
+    .image-header-wrapper{
+        z-index: 1;
+    }
+    .grid-wrapper footer{
+        z-index: 2;
+        position: relative;
     }
     .nav{
         position: fixed;
