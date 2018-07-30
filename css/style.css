@@ -517,7 +517,7 @@ footer{
 
 
 
-@media all and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     html{
         font-size: 11px;
     } 
@@ -528,11 +528,7 @@ footer{
         height: 100vh !important;
         background: url("../img/mobile_liyank1.png") !important;
         background-repeat:no-repeat !important;
-        background-origin: content-box !important;
-        background-size: contain !important;
-        -moz-background-origin: content-box !important;
         background-attachment: scroll !important;
-        -webkit-background-size: contain;
 
     }
     .nav{
