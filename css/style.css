@@ -538,11 +538,11 @@ footer{
         background: url("../img/mobile_liyank1.png") no-repeat !important;
         top: 0 !important;
         left: 0 !important;
-        height: auto !important;
+        height: 100% !important;
         width: 100% !important;
     }
-    .youtube_section{
-        
+    .youtube.section{
+        z-index: 999;
     }
     .nav{
         position: fixed;
