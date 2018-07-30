@@ -540,7 +540,6 @@ footer{
         left: 0 !important;
         height: auto !important;
         width: 100% !important;
-        z-index: 1;
     }
     .youtube_section{
         z-index: 999;
