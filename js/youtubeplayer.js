@@ -10,11 +10,7 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
     height: '100%',
     width: '100%',
-    playerVars: 
-          {
-            listType:'playlist',
-            list: 'PL1T2anvedVfKx0NOXL-NVlW3e6YqdOTbO'
-          }
+    videoId: "_QlqhS8t_l4"
     });
 }
 
